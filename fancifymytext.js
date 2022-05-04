@@ -1,7 +1,7 @@
 //Martin A. Dominguez CSC196W
 function getBigger()
 {
-    document.getElementById("text").style.fontSize = "24pt";
+    document.getElementById("textarea").style.fontSize = "24pt";
 }
 
 function getFancy()
