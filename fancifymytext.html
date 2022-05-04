@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Martin A. Dominguez CSC196W-->
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1> Fancify my Text</h1>
+
+		<!-- Your UI controls go here -->
+
+		<!--Field for suer to enter large (multi-line) amounts of text -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="textarea" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<!--Add a scond bordered field set box labeled "Fancy" with button and two radio buttons -->
+		<fieldset>
+			<legend>Fancify</legend>
+
+			<button onclick="getBigger()">Bigger!</button>
+			
+			<input type="radio" id="fancy" onchange="getFancy()">
+			<label for="fancy">FancyShmancy!</label>
+
+			<input type="radio" id="boring" onchange="getBoring()">
+			<label for="boring">BoringBettey!</label>
+
+			<!--Add a new button with the text "Moo"-->
+			<button onclick="moo()">Moo</button>
+			
+		</fieldset>
+
+	</body>
+</html>
